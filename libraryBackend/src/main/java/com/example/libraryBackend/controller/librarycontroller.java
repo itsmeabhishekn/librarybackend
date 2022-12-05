@@ -55,6 +55,12 @@ public class librarycontroller {
         return "this is the signin page";
     }
 
+    @PostMapping("/userreg")
+    public String userreg()
+    {
+        return "this is the user registration page";
+    }
+
 
 
 
