@@ -31,6 +31,13 @@ public class librarycontroller {
         return "this is the delete page";
     }
 
+    @PostMapping("/edit")
+    public String edit()
+    {
+        return "this is the edit page";
+    }
+
+
 
 
 
