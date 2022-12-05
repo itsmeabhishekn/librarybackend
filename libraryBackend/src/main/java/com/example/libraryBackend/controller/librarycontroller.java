@@ -61,6 +61,12 @@ public class librarycontroller {
         return "this is the user registration page";
     }
 
+    @GetMapping("/view")
+    public String view()
+    {
+        return "this is the viewall page"
+    }
+
 
 
 
