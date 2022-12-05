@@ -19,6 +19,20 @@ public class librarycontroller {
         return "this is the home page";
     }
 
+    @PostMapping("/add")
+    public String add()
+    {
+        return "this is the book adding page";
+    }
+
+    @PostMapping("/delete")
+    public String delete()
+    {
+        return "this is the delete page";
+    }
+
+
+
 
 
 }
