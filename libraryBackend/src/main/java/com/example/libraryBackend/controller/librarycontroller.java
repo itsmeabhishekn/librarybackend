@@ -37,11 +37,18 @@ public class librarycontroller {
         return "this is the edit page";
     }
 
-    @PostMapping("issue")
+    @PostMapping("/issue")
     public String issue()
     {
         return  "this is the book issue page";
     }
+
+    @PostMapping("/search")
+    public String search()
+    {
+        return "this is the search book issue";
+    }
+
 
 
 
